@@ -625,7 +625,19 @@ Possible future enhancements include:
 
 ---
 
-# 👨‍💻 Author
+## Terraform Workflow
+
+This project follows a standard Infrastructure as Code workflow:
+
+1. `terraform init`
+2. `terraform fmt`
+3. `terraform validate`
+4. `terraform plan`
+5. `terraform apply`
+6. Validate the AWS resources
+7. `terraform destroy`
+
+# 👨💻 Author
 
 **Henri Siyapdje**
 
